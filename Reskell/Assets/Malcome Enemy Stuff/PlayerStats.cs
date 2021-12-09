@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 
@@ -9,6 +10,7 @@ using UnityEngine;
         public int maxHealth;
         public int currentHealth;
 
+        public float DeathDelay = 2f;
         public int staminaLevel = 10;
         public int maxStamina;
         public int currentStamina;
@@ -52,20 +54,28 @@ using UnityEngine;
 
             healthbar.SetCurrentHealth(currentHealth);
 
-           // animatorHandler.PlayTargetAnimation("Damage_01", true);
+            // animatorHandler.PlayTargetAnimation("Damage_01", true);
 
             if (currentHealth <= 0)
             {
                 currentHealth = 0;
-              //  animatorHandler.PlayTargetAnimation("Dead_01", true);
-            }
-        }
 
-        public void TakeStaminaDamage(int damage)
-        {
-           // currentStamina = currentStamina - damage;
-           // staminaBar.SetCurrentStamina(currentStamina);
+                Invoke("GameOver", DeathDelay);
+                Debug.Log("Game Over");
+
+                //  animatorHandler.PlayTargetAnimation("Dead_01", true);
+            }
+
         }
+            public void GameOver()
+            {
+                SceneManager.LoadScene("GameOver");
+            }
+
+        
+     
     }
+
+
 
 
