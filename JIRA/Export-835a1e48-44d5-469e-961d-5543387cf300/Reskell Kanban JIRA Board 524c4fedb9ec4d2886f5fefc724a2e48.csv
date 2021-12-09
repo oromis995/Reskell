@@ -1,0 +1,40 @@
+﻿Name,Assign,Date,Definition Of Done,Epic,Estimate,Priority,Property,Sprint,Status,Story
+Load,,,"- Allows the player to begin where most recently last saved.
+- Prompts user for confirmation if a scene is already open.",Main Menu,,,,1,Backlog,"As Player, I want to access press Load in the main menu, so that I can load my save files."
+Access Main Menu,,,"- Pauses the game.
+- Allows player to access: save, load, options, and exit the game.",Main Menu,,,,1,Completed,"As Player, I want to press New Game in the main menu, so that I can play."
+Options,,,"- Pressing Options opens a new window with options
+- Upon Options exit, settings are saved",Main Menu,,,,1,Completed,"As Player, I want to access press Options in the main menu, so that I can change settings."
+Exit Game,,,"- Pressing Exit Game closes the game
+- Pressing Exit Game prompts to save if the player has a scene open.",Main Menu,,,,1,In progress,"As Player, I want to access press Exit Game in the main menu, so that I can exit."
+New Game,,,"- Pressing New Game closes the main menu
+- Pressing New Game opens the opening scene",Main Menu,,,,1,Completed,"As Player, I want to press New Game in the main menu, so that I can play."
+Save,,,"- Allows player to save their progress in the game.
+- Prompts user if they wish to save the game.
+- Has different save slots.
+- Prompts user if they wish to overwrite a save.
+- Checks main menu for stored save.
+- Prompts user if they wish to delete a save slot.
+- Creates a save file.",Main Menu,,,,1,In progress,"As Player, I want to access press Save Game in the main menu, so that I can save my progress."
+Save File,,,"- Save file must have location data of player and NPCs.
+- Save file must keep a record of past choices.
+- Save file must keep track of possible currency levels.
+- Save file must keep track of current health levels.
+- Save file must keep track of NPC tasks.
+- Save file must keep track of status of current quests.
+- Save file must keep track of current relationship with NPCs.
+- Save file must keep track of inventory, and inventory item stats.",Main Menu,,,,1,In progress,"As Player, I want to be able to save my progress, so that I can resume later on"
+Character Appearance,Lorenzo,"October 31, 2021 → November 3, 2021","- A main character must be the default, either male or female, but one to start off with",Characters,5,,,1,Completed,"As Player, I want to have a character with clothes and hair, so that I can not freak out"
+Skybox,Lorenzo,"October 31, 2021 → November 3, 2021",,Environment,3,,,1,Completed,
+Rain and Environmental Effects,Lorenzo,"October 30, 2021 → November 5, 2021",,Effects,8,,,1,Completed,
+Background music,Lorenzo,"October 31, 2021 → November 4, 2021",,Audio,3,,,1,Completed,
+3rd Person Camera Control,Lorenzo,"October 25, 2021 → October 28, 2021","-X,Y,Z shifting, preset, or control of camera focus on character.
+-Left or right oriented camera",Mechanics,5,Thunderstorm,,1,Completed,"As a user I want to have a comfortable camera spacing/preset, so that I can see the beautiful Chad I created at different angles."
+Environmental Damage Effects,Lorenzo,,,Effects,13,,,2,Not started,
+Rework Ocean Base,Lorenzo,"November 22, 2021 → December 2, 2021",,Environment,13,,,2,In progress,
+Get doors working,Lorenzo,"November 22, 2021 → November 24, 2021",,Environment,8,,,2,Completed,
+Fix asset flickering issues,Lorenzo,"November 22, 2021 → November 24, 2021",,Environment,8,,,2,Completed,
+Work on making the lights flicker,Lorenzo,"December 1, 2021 → December 2, 2021",,Effects,13,,,2,In progress,
+Enemy Design,"Lorenzo, Sauce Master",,,Mechanics,8,,,2,In progress,
+Options Config File,,,,Main Menu,,,,,Backlog,
+,,,,,,,,,,
