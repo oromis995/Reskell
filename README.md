@@ -1,2 +1,2 @@
 # Reskell
-CMPS455 Scifi Game Project
+Sci-Fi Game Project
